@@ -1,0 +1,613 @@
+{
+  "survey_name": "WalkX Cozie Survey",
+  "survey_id": "cozie_survey",
+  "survey": [{
+      "question": "How do you feel thermally now?",
+      "question_id": "q_thermal",
+      "response_options": [{
+          "text": "Hot",
+          "icon": "sun.max.fill",
+          "icon_background_color": "#FF4433",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_temppref"
+        },
+        {
+          "text": "Warm",
+          "icon": "sun.max",
+          "icon_background_color": "#FF8E1A",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_temppref"
+        },
+        {
+          "text": "Neutral",
+          "icon": "light_dim",
+          "icon_background_color": "#FFD700",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_temppref"
+        },
+        {
+          "text": "Cool",
+          "icon": "wind.snow",
+          "icon_background_color": "#5B8DB8",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_temppref"
+        },
+        {
+          "text": "Cold",
+          "icon": "snowflake",
+          "icon_background_color": "#B8E3F5",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_temppref"
+        }
+      ]
+    },
+    {
+      "question": "How would you prefer it to be?",
+      "question_id": "q_temppref",
+      "response_options": [{
+          "text": "Much Cooler",
+          "icon": "light.min",
+          "icon_background_color": "#4A90D9",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humidity"
+        },
+        {
+          "text": "Slightly Cooler",
+          "icon": "light.max",
+          "icon_background_color": "#A8D0EC",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humidity"
+        },
+        {
+          "text": "No Change",
+          "icon": "rays",
+          "icon_background_color": "#F0EDE5",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humidity"
+        },
+        {
+          "text": "Slightly Hotter",
+          "icon": "slowmo",
+          "icon_background_color": "#FFC482",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humidity"
+        },
+        {
+          "text": "Much Hotter",
+          "icon": "timelapse",
+          "icon_background_color": "#FF8C2E",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humidity"
+        }
+      ]
+    },
+    {
+      "question": "How do you feel about the air humidity now?",
+      "question_id": "q_humidity",
+      "response_options": [{
+          "text": "Humid",
+          "icon": "smoke.fill",
+          "icon_background_color": "#6495ED",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humiditypref"
+        },
+        {
+          "text": "Slightly Humid",
+          "icon": "cloud.fill",
+          "icon_background_color": "#92B4F3",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humiditypref"
+        },
+        {
+          "text": "Neutral",
+          "icon": "cloud.fog",
+          "icon_background_color": "#BFD3F8",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humiditypref"
+        },
+        {
+          "text": "Slightly Dry",
+          "icon": "cloud",
+          "icon_background_color": "#D4E1FA",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humiditypref"
+        },
+        {
+          "text": "Dry",
+          "icon": "smoke",
+          "icon_background_color": "#E8EFFC",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_humiditypref"
+        }
+      ]
+    },
+    {
+      "question": "How would you prefer it to be?",
+      "question_id": "q_humiditypref",
+      "response_options": [{
+          "text": "Much More Humid",
+          "icon": "light.min",
+          "icon_background_color": "#2E6DA4",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_wind"
+        },
+        {
+          "text": "Slightly More Humid",
+          "icon": "light.max",
+          "icon_background_color": "#5A9FDB",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_wind"
+        },
+        {
+          "text": "No Change",
+          "icon": "rays",
+          "icon_background_color": "#8FC3ED",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_wind"
+        },
+        {
+          "text": "Slightly Drier",
+          "icon": "slowmo",
+          "icon_background_color": "#C3E0F7",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_wind"
+        },
+        {
+          "text": "Much Drier",
+          "icon": "timelapse",
+          "icon_background_color": "#EAF4FC",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_wind"
+        }
+      ]
+    },
+    {
+      "question": "How is the air movement right now?",
+      "question_id": "q_wind",
+      "response_options": [{
+          "text": "Very Windy",
+          "icon": "tornado",
+          "icon_background_color": "#8B6F47",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_windpref"
+        },
+        {
+          "text": "Windy",
+          "icon": "wind.snow",
+          "icon_background_color": "#C4A47C",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_windpref"
+        },
+        {
+          "text": "Slightly Windy",
+          "icon": "wind",
+          "icon_background_color": "#E0CBAE",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_windpref"
+        },
+        {
+          "text": "Still",
+          "icon": "light.min",
+          "icon_background_color": "#F5EDE3",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_windpref"
+        }
+      ]
+    },
+    {
+      "question": "How would you prefer it to be?",
+      "question_id": "q_windpref",
+      "response_options": [{
+          "text": "Much More Windy",
+          "icon": "light.min",
+          "icon_background_color": "#9C7A46",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comf"
+        },
+        {
+          "text": "Slightly More Windy",
+          "icon": "light.max",
+          "icon_background_color": "#B2905C",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comf"
+        },
+        {
+          "text": "No Change",
+          "icon": "rays",
+          "icon_background_color": "#D4B98D",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comf"
+        },
+        {
+          "text": "Slightly Less Windy",
+          "icon": "slowmo",
+          "icon_background_color": "#E8D6BC",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comf"
+        },
+        {
+          "text": "Much Less Windy",
+          "icon": "timelapse",
+          "icon_background_color": "#F7F0E7",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comf"
+        }
+      ]
+    },
+    {
+      "question": "In general, how comfortable do you feel right now?",
+      "question_id": "q_comf",
+      "response_options": [{
+          "text": "Very Comfortable",
+          "icon": "emoticon_happy",
+          "icon_background_color": "#4A90D9",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_walkinfras"
+        },
+        {
+          "text": "Comfortable",
+          "icon": "emoticon_happy_4",
+          "icon_background_color": "#A8D0EC",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_walkinfras"
+        },
+        {
+          "text": "Neutral",
+          "icon": "emoticon_neutral",
+          "icon_background_color": "#F0EDE5",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_walkinfras"
+        },
+        {
+          "text": "Uncomfortable",
+          "icon": "emoticon_sad_2",
+          "icon_background_color": "#FFC482",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_walkinfras"
+        },
+        {
+          "text": "Very Uncomfortable",
+          "icon": "emoticon_sad_3",
+          "icon_background_color": "#FF8C2E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_walkinfras"
+        }
+      ]
+    },
+    {
+      "question": "How adequate is the walkway infrastructure?",
+      "question_id": "q_walkinfras",
+      "response_options": [{
+          "text": "Adequate",
+          "icon": "emoticon_happy_4",
+          "icon_background_color": "#52B788",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_navi"
+        },
+        {
+          "text": "Neutral",
+          "icon": "emoticon_neutral",
+          "icon_background_color": "#4A90D9",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_navi"
+        },
+        {
+          "text": "Inadequate",
+          "icon": "emoticon_sad",
+          "icon_background_color": "#E63946",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_navi"
+        }
+      ]
+    },
+    {
+      "question": "How easy is it to navigate this walking segment?",
+      "question_id": "q_navi",
+      "response_options": [{
+          "text": "Easy",
+          "icon": "emoticon_happy_4",
+          "icon_background_color": "#52B788",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_safe"
+        },
+        {
+          "text": "Neutral",
+          "icon": "emoticon_neutral",
+          "icon_background_color": "#4A90D9",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_safe"
+        },
+        {
+          "text": "Difficult",
+          "icon": "emoticon_sad",
+          "icon_background_color": "#E63946",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_safe"
+        }
+      ]
+    },
+    {
+      "question": "How safe do you feel walking in this area?",
+      "question_id": "q_safe",
+      "response_options": [{
+          "text": "Safe",
+          "icon": "emoticon_happy_4",
+          "icon_background_color": "#52B788",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_visual"
+        },
+        {
+          "text": "Neutral",
+          "icon": "emoticon_neutral",
+          "icon_background_color": "#4A90D9",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_visual"
+        },
+        {
+          "text": "Unsafe",
+          "icon": "emoticon_sad",
+          "icon_background_color": "#E63946",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_visual"
+        }
+      ]
+    },
+    {
+      "question": "How visually pleasant is this walking segment?",
+      "question_id": "q_visual",
+      "response_options": [{
+          "text": "Pleasant",
+          "icon": "emoticon_happy_4",
+          "icon_background_color": "#52B788",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_greenery"
+        },
+        {
+          "text": "Neutral",
+          "icon": "emoticon_neutral",
+          "icon_background_color": "#4A90D9",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_greenery"
+        },
+        {
+          "text": "Unpleasant",
+          "icon": "emoticon_sad",
+          "icon_background_color": "#E63946",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_greenery"
+        }
+      ]
+    },
+    {
+      "question": "How sufficient is the surrounding greenery?",
+      "question_id": "q_greenery",
+      "response_options": [{
+          "text": "Sufficient",
+          "icon": "emoticon_happy_4",
+          "icon_background_color": "#52B788",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_relax"
+        },
+        {
+          "text": "Neutral",
+          "icon": "emoticon_neutral",
+          "icon_background_color": "#4A90D9",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_relax"
+        },
+        {
+          "text": "Insufficient",
+          "icon": "emoticon_sad",
+          "icon_background_color": "#E63946",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_relax"
+        }
+      ]
+    },
+    {
+      "question": "I feel relaxed while walking.",
+      "question_id": "q_relax",
+      "response_options": [{
+          "text": "1 (Not at all)",
+          "icon": "emoticon_sad_3",
+          "icon_background_color": "#E63946",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_alert"
+        },
+        {
+          "text": "2",
+          "icon": "emoticon_sad_2",
+          "icon_background_color": "#C97B7E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_alert"
+        },
+        {
+          "text": "3 (Neutral)",
+          "icon": "emoticon_neutral",
+          "icon_background_color": "#8E7A9E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_alert"
+        },
+        {
+          "text": "4",
+          "icon": "emoticon_happy_4",
+          "icon_background_color": "#5B8FA8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_alert"
+        },
+        {
+          "text": "5 (Totally)",
+          "icon": "emoticon_happy",
+          "icon_background_color": "#52B788",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_alert"
+        }
+      ]
+    },
+    {
+      "question": "I feel alert while walking.",
+      "question_id": "q_alert",
+      "response_options": [{
+          "text": "1 (Not at all)",
+          "icon": "emoticon_sad_3",
+          "icon_background_color": "#E63946",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clear"
+        },
+        {
+          "text": "2",
+          "icon": "emoticon_sad_2",
+          "icon_background_color": "#C97B7E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clear"
+        },
+        {
+          "text": "3 (Neutral)",
+          "icon": "emoticon_neutral",
+          "icon_background_color": "#8E7A9E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clear"
+        },
+        {
+          "text": "4",
+          "icon": "emoticon_happy_4",
+          "icon_background_color": "#5B8FA8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clear"
+        },
+        {
+          "text": "5 (Totally)",
+          "icon": "emoticon_happy",
+          "icon_background_color": "#52B788",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clear"
+        }
+      ]
+    },
+    {
+      "question": "My mind feels clear while walking.",
+      "question_id": "q_clear",
+      "response_options": [{
+          "text": "1 (Not at all)",
+          "icon": "emoticon_sad_3",
+          "icon_background_color": "#E63946",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_choice"
+        },
+        {
+          "text": "2",
+          "icon": "emoticon_sad_2",
+          "icon_background_color": "#C97B7E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_choice"
+        },
+        {
+          "text": "3 (Neutral)",
+          "icon": "emoticon_neutral",
+          "icon_background_color": "#8E7A9E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_choice"
+        },
+        {
+          "text": "4",
+          "icon": "emoticon_happy_4",
+          "icon_background_color": "#5B8FA8",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_choice"
+        },
+        {
+          "text": "5 (Totally)",
+          "icon": "emoticon_happy",
+          "icon_background_color": "#52B788",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_choice"
+        }
+      ]
+    },
+    {
+      "question": "Given a choice, I would continue walking.",
+      "question_id": "q_choice",
+      "response_options": [{
+          "text": "Yes",
+          "icon": "play.circle.fill",
+          "icon_background_color": "#52B788",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "No",
+          "icon": "stop.circle.fill",
+          "icon_background_color": "#FF4433",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}
