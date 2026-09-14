@@ -8,7 +8,7 @@
           "text": "Sweating",
           "icon": "sun.max.fill",
           "icon_background_color": "#FF4433",
-          "use_sf_symbols": false,
+          "use_sf_symbols": true,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_thermal"
         },
