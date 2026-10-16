@@ -5,61 +5,55 @@
       "question": "Which of the following are you experiencing right now?",
       "question_id": "q_phyexp",
       "question_type": "multi_select",
+      "next_question_id": "q_thermal",
       "response_options": [{
           "text": "Sweating",
           "icon": "1.circle",
           "icon_background_color": "#FF4433",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_thermal"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Panting",
           "icon": "2.circle",
           "icon_background_color": "#FF8E1A",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_thermal"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Dizzy",
           "icon": "3.circle",
           "icon_background_color": "#FFD700",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_thermal"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Skin feels like it's burning",
           "icon": "4.circle",
           "icon_background_color": "#5B8DB8",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_thermal"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Longing for shade",
           "icon": "5.circle",
           "icon_background_color": "#B8E3F5",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_thermal"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Longing for misting",
           "icon": "6.circle",
           "icon_background_color": "#B39DDB",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_thermal"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "None of the above",
           "icon": "x",
           "icon_background_color": "#D4C5EA",
           "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_thermal"
+          "sf_symbols_color": "#000000"
         }
       ]
     },
@@ -157,61 +151,55 @@
       "question": "Where in your body do you feel the heat?",
       "question_id": "q_body",
       "question_type": "multi_select",
+      "next_question_id": "q_humidity",
       "response_options": [{
           "text": "Skin",
           "icon": "1.circle",
           "icon_background_color": "#F5EDE3",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_humidity"
+          "sf_symbols_color": "#000000"  
         },
         {
           "text": "Face",
           "icon": "2.circle",
           "icon_background_color": "#E8D6BC",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_humidity"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Neck",
           "icon": "3.circle",
           "icon_background_color": "#D4B98D",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_humidity"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Back",
           "icon": "4.circle",
           "icon_background_color": "#C4A47C",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_humidity"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Arms/Hands",
           "icon": "5.circle",
           "icon_background_color": "#B2905C",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_humidity"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Legs/Feet",
           "icon": "6.circle",
           "icon_background_color": "#9C7A46",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_humidity"
+          "sf_symbols_color": "#000000"
         },
         {
           "text": "Whole Body",
           "icon": "7.circle",
           "icon_background_color": "#6B4F2E",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_humidity"
+          "sf_symbols_color": "#000000"
         }
       ]
     },
