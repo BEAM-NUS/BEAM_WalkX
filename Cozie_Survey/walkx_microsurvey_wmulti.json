@@ -2,7 +2,7 @@
   "survey_name": "WalkX Cozie Survey",
   "survey_id": "cozie_survey",
   "survey": [{
-      "question": "Which of the following are you experiencing right now?",
+      "question": "* Which of the following are you experiencing right now?",
       "question_id": "q_phyexp",
       "question_type": "multi_select",
       "next_question_id": "q_thermal",
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "question": "Where in your body do you feel the heat?",
+      "question": "* Where in your body do you feel the heat?",
       "question_id": "q_body",
       "question_type": "multi_select",
       "next_question_id": "q_humidity",
